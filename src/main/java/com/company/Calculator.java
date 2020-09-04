@@ -14,7 +14,8 @@ public class Calculator {
         return c;
     }
 
-    public int division(int a, int b) {
-        return a / b;
+    public double division(int a, int b) {
+        double c = (double) a / b;
+        return c;
     }
 }
