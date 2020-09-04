@@ -10,10 +10,12 @@ public class Calculator {
     }
 
     public long multiply(int a, int b) {
-        return a * b;
+        long c = a * b;
+        return c;
     }
 
     public double division(int a, int b) {
-        return a / b;
+        double c = a / b;
+        return c;
     }
 }
